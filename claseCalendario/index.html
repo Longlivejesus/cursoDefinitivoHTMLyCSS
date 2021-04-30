@@ -7,31 +7,26 @@
   <title>Calendario</title>
 </head>
 <body>
-  <!-- <form action="">
-    <label for="hora">
-      <span>Hora</span>
-      <input type="time" name="" id="hora"/>
-    </label>
-    <label for="dia">
-      <span>Dia</span>
-      <input type="date" name="" id="dia"/>
-    </label>
-    <label for="semana">
-      <span>semana</span>
-      <input type="week" name="" id="semana"/>
-    </label>
-    <label for="mes">
-      <span>Hora</span>
-      <input type="month" name="" id="mes"/>
-    </label>
-    <input type="submit"/>
-  </form> -->
-  <form action="">
-    <label for="calendario">
-      <span>Calendario</span>
-      <input type="datetime-local" name="calendario" id="calendario">
-    </label>
-    <input type="submit"/>
-  </form>
+  <main>
+    <form action="">
+      <label for="nombre">
+        <span>Cual es tu nombre?</span>
+        <input type="text" name="" id="nombre" placeholder="Ingresa tu nombre" autocomplete="name" required />
+      </label>
+      <label for="correo">
+        <span>Ingresa tu correo</span/>
+        <input type="email" name="" id="correo" placeholder="Ingresa tu correo" autocomplete="email" required />
+      </label>
+      <label for="pais">
+        <span>Cual es tu pais?</span>
+        <input type="text" name="" id="pais" autocomplete="country-name" required />
+      </label>
+      <label for="cp">
+        <span>Ingresa tu Codigo Postal</span>
+        <input type="number" name="" id="cp" autocomplete="postal-code" required />
+      </label>
+      <input type="submit"/>
+    </form>
+  </main>
 </body>
 </html>
