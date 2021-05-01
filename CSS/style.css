@@ -1,0 +1,21 @@
+p {
+  color: rgb(197, 63, 164);
+  font-size: 40px;
+}
+
+/* class */
+.azul {
+  color: blue;
+  font-size: 15px;
+}
+
+/* id */
+#verde {
+  color: green;
+  font-size: 24px;
+}
+
+.bodycontainer{
+  background-color: rgb(85, 27, 27);
+}
+
