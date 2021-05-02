@@ -4,56 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desafio</title>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lista del super perrona</title>
 </head>
-<body>
+<body class="fondo">
   <header>
-    <p>Desafio</p>
-    <h1>Tu lista del super ideal</h1>
+    <h1 class="titulo">Lista del super</h1>
+    <h3 class="subtitulo">Desafio</h3>
   </header>
   <main>
-    <ul>
-      <li>Frutas</li>
-        <ol>
-          <li><a href="https://www.google.com/search?q=recetas+con+manzanas&oq=Recetas+con+manzana&aqs=edge.0.0j69i57j0l5.2744j0j1&sourceid=chrome&ie=UTF-8"
-            target="_blank">Comprar Manzanas</a></li>
-          <figure>
-            <img src="./picsDesafio/Manzana.jpg" alt="Imagen de una manzana" width="250">
-            <figcaption>Manzanas rojas</figcaption>
-          </figure>
-          <li>Comprar platanos</li>
-          <figure>
-            <img src="./picsDesafio/Platano.jpg" alt="Imagen de un platano" width="250">
-            <figcaption>Platanos maduros</figcaption>
-          </figure>
-        </ol>
-      <li>carnes</li>
-        <ol>
-          <li>comprar pollo</li>
-          <figure>
-            <img src="./picsDesafio/Pollo.jpg" alt="Imagen de un pollo" width="250" height="200">
-            <figcaption>Muslo de pollo</figcaption>
-          </figure>
-          <li>comprar carne molida</li>
-          <figure>
-            <img src="./picsDesafio/Carne-Molida.jpg" alt="Imagen de carne molida" width="250">
-            <figcaption>carne roja</figcaption>
-          </figure>
-        </ol>
-        <li>verduras</li>
-      <ol>
-        <li>comprar limones</li>
-        <figure>
-          <img src="./picsDesafio/Limon.jpg" alt="Imagen de limon" width="250">
-          <figcaption>limones frescos</figcaption>
-        </figure>
-        <li>comprar zanahoria</li>
-        <figure>
-          <img src="./picsDesafio/Zanahoria.jpg" alt="Imagen de zanahoria" width="250" height="200">
-          <figcaption>zanahorias frescas</figcaption>
-        </figure>
-      </ol>
-    </ul>
+    <section class="seccion1">
+      <p class="para">Frutas</p>
+      <p class="para">Carnes</p>
+      <p class="para">Verduras</p>
+
+    </section>
+    <section class="lis-frutas">
+      <ul>
+        <li>Manzanas <input type="checkbox""></li>
+        <li>Platanos <input type="checkbox""></li>
+      </ul>
+    </section>
+    <section class="lis-carnes">
+      <ul>
+        <li>Pollo <input type="checkbox""></li>
+        <li>Carne Molida <input type="checkbox""></li>
+      </ul>
+    </section>
+    <section class="lis-verduras">
+      <ul>
+        <li>Limon <input type="checkbox""></li>
+        <li>Zanahoria <input type="checkbox""></li>
+      </ul>
+    </section>
   </main>
   <footer>
     Hecho con amor
